@@ -1,0 +1,88 @@
+# This repository adheres to the publiccode.yml standard by including this
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/publiccodeyml/publiccode.yml
+
+publiccodeYmlVersion: '0.3'
+categories:
+  - data-analytics
+  - data-collection
+  - data-visualization
+description:
+  it:
+    apiDocumentation: 'https://developer.matomo.org/api-reference'
+    documentation: 'https://matomo.org/guides/'
+    features:
+      - Interfaccia amichevole
+      - Importatore da Google Analytics
+      - Eventi personalizzati
+    longDescription: |
+      Matomo è un software libero per fornire report dettagliati e in tempo reale
+      sui visitatori di un sito web, fra cui i motori di ricerca di provenienza,
+      parole chiave utilizzate, la lingua di utilizzo e le pagine più visitate.
+      Matomo si identifica come alternativa a Google Analytics.
+
+      È scritto in PHP e JavaScript ed è distribuito sotto la licenza libera GNU
+      General Public License.
+
+      Le principali caratteristiche di Matomo:
+
+      Le funzionalità del software sono estendibili tramite l'installazione di
+      plugin: è possibile aggiungere nuove funzionalità e rimuovere quelle di cui
+      non si ha bisogno Matomo è installato sul proprio server, quindi i dati sul
+      traffico vengono memorizzati nel proprio database ed è possibile ottenere
+      tutte le statistiche utilizzando API aperte (pubblicate in vari formati: JSON,
+      XML, PHP, CSV) L'interfaccia utente è completamente personalizzabile: è
+      possibile trascinare e rilasciare i widget che si desidera visualizzare e
+      creare una visualizzazione fatta su misura Report di analisi dei dati in tempo
+      reale: i report vengono generati in tempo reale. Per i siti web ad alto
+      traffico, è possibile scegliere la frequenza dei report
+
+      (dalla voce di Wikipedia <a
+      href="https://it.wikipedia.org/wiki/Matomo_(software)">"Matomo"</a>, con licenza <a
+      href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+      Attribution-Share-Alike License 3.0</a>.)
+    screenshots:
+      - 'https://m-img.org/spai/w_848+q_lossless+ret_img+to_webp/https://static.matomo.org/wp-content/uploads/2022/03/Dasboard-01-01-2048x1264.png'
+    shortDescription: |
+      Matomo è un software libero per fornire report dettagliati e in tempo reale
+      sui visitatori di un sito web,
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+landingURL: 'https://matomo.org'
+legal:
+  license: GPL-3.0
+  mainCopyrightOwner: Matthieu Aubry
+localisation:
+  availableLanguages:
+    - en
+    - it
+    - no
+    - zh
+    - fr
+    - es
+    - de
+  localisationReady: true
+logo: 'https://static.matomo.org/wp-content/uploads/2018/10/matomo-logo-final-1-340x50.png'
+maintenance:
+  contacts:
+    - name: Matthieu Aubry
+  type: community
+name: Matomo
+platforms:
+  - web
+releaseDate: '2022-10-05'
+roadmap: 'https://github.com/matomo-org/matomo/milestones?direction=asc&sort=due_date&state=open'
+softwareType: standalone/web
+softwareVersion: 4.12.0
+url: 'https://github.com/matomo-org/matomo'
