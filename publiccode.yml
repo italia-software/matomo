@@ -2,7 +2,7 @@
 # metadata file that makes public software easily discoverable.
 # More info at https://github.com/publiccodeyml/publiccode.yml
 
-publiccodeYmlVersion: '0.3'
+publiccodeYmlVersion: '0.4'
 categories:
   - data-analytics
   - data-collection
@@ -42,7 +42,7 @@ description:
       href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
       Attribution-Share-Alike License 3.0</a>.)
     screenshots:
-      - 'https://m-img.org/spai/w_848+q_lossless+ret_img+to_webp/https://static.matomo.org/wp-content/uploads/2022/03/Dasboard-01-01-2048x1264.png'
+      - 'https://raw.githubusercontent.com/italia-software/matomo/main/Dasboard-01-01-2048x1264.png'
     shortDescription: |
       Matomo è un software libero per fornire report dettagliati e in tempo reale
       sui visitatori di un sito web,
@@ -73,7 +73,7 @@ localisation:
     - es
     - de
   localisationReady: true
-logo: 'https://static.matomo.org/wp-content/uploads/2018/10/matomo-logo-final-1-340x50.png'
+logo: 'https://raw.githubusercontent.com/italia-software/matomo/main/matomo-logo-final-1-340x50.png'
 maintenance:
   contacts:
     - name: Matthieu Aubry
